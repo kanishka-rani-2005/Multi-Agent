@@ -53,7 +53,7 @@ The application automatically researches a topic, reads relevant web pages, gene
 ---
 
 
-# 🛠 Tech Stack
+#  Tech Stack
 
 ## AI & LLM
 
@@ -136,7 +136,7 @@ Multi-Agent/
 
 ---
 
-# ⚙️ Installation
+#  Installation
 
 ## Clone Repository
 
