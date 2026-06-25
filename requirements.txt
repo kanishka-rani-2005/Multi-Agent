@@ -12,6 +12,7 @@ requests>=2.31.0
 lxml>=5.0.0
 
 python-dotenv>=1.0.0
+langchain-groq>=0.1.0
 
 # Hugging Face
 huggingface_hub>=0.23.0
@@ -24,6 +25,4 @@ sentence-transformers>=3.0.0
 langchain-google-genai>=2.0.0
 
 
-# Optional (for vector embeddings)
-faiss-cpu>=1.8.0
 rich>=13.7.0

@@ -1,4 +1,4 @@
-from langchain.tools import tool 
+from langchain.tools import tool
 import requests
 from dotenv import load_dotenv
 import os
