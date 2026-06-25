@@ -13,15 +13,6 @@ lxml>=5.0.0
 
 python-dotenv>=1.0.0
 langchain-groq>=0.1.0
-
-# Hugging Face
-huggingface_hub>=0.23.0
-langchain-huggingface>=0.0.3
-transformers>=4.41.0
-torch>=2.3.0
-accelerate>=0.31.0
-sentence-transformers>=3.0.0
-
 langchain-google-genai>=2.0.0
 
 
