@@ -117,9 +117,9 @@ Multi-Agent/
 
 │   │
 
-│   └── workflow/
+│   └── pipeline/
 
-│       └── workflow.py
+│       └── pipeline.py
 
 │
 
