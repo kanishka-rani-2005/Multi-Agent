@@ -5,6 +5,9 @@ An AI-powered Multi-Agent Research Assistant built using **LangChain**, **Groq L
 The application automatically researches a topic, reads relevant web pages, generates a structured research report, and provides critical feedback on the generated report.
 
 ---
+# Deployed Link
+
+https://multi-agent-kwvakbot2udvfnyxfse3hb.streamlit.app/
 
 ##  Features
 
@@ -78,10 +81,7 @@ The application automatically researches a topic, reads relevant web pages, gene
 
 ## Deployment
 
-* Docker
-* AWS EC2
-* Amazon ECR
-* GitHub Actions
+* Streamlit
 
 ---
 
@@ -125,13 +125,7 @@ Multi-Agent/
 
 ├── research_report.md
 
-│
 
-└── .github/
-
-    └── workflows/
-
-        └── deploy.yml
 ```
 
 ---
@@ -199,28 +193,6 @@ http://localhost:8501
 ---
 
 
-#  AWS Deployment
-
-The project supports:
-
-* AWS EC2
-* Amazon ECR
-* GitHub Actions CI/CD
-* Docker-based deployment
-
----
-
-#  CI/CD
-
-GitHub Actions automatically:
-
-* Builds Docker image
-* Pushes image to Amazon ECR
-* Pulls latest image on EC2
-* Restarts application
-* Deploys new version automatically
-
----
 
 
 ### Output
