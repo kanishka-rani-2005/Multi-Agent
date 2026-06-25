@@ -26,3 +26,9 @@ langchain-google-genai>=2.0.0
 
 
 rich>=13.7.0
+
+transformers
+torch
+torchvision
+accelerate
+sentence-transformers
