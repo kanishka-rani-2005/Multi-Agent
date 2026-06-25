@@ -5,17 +5,17 @@ from langchain_core.output_parsers import StrOutputParser
 from src.tools.tools import web_search, scrape_url
 from dotenv import load_dotenv
 from langchain_groq import ChatGroq
-
+import os
 
 load_dotenv()
 
 # Model Initialization
 
 llm = ChatGroq(
+    api_key=os.getenv("GROQ_API_KEY"),
     model="llama-3.3-70b-versatile",
     temperature=0
 )
-
 # 1st Agent : Search Agent
 def build_search_agent():
     return create_agent(
