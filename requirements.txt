@@ -23,3 +23,4 @@ sentence-transformers>=3.0.0
 
 # Optional (for vector embeddings)
 faiss-cpu>=1.8.0
+rich>=13.7.0
