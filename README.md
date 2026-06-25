@@ -208,58 +208,6 @@ The project supports:
 * GitHub Actions CI/CD
 * Docker-based deployment
 
-Deployment workflow:
-
-GitHub Push
-
-```
-    │
-
-    ▼
-```
-
-GitHub Actions
-
-```
-    │
-
-    ▼
-```
-
-Build Docker Image
-
-```
-    │
-
-    ▼
-```
-
-Push to Amazon ECR
-
-```
-    │
-
-    ▼
-```
-
-EC2 Self Hosted Runner
-
-```
-    │
-
-    ▼
-```
-
-Pull Latest Image
-
-```
-    │
-
-    ▼
-```
-
-Deploy Streamlit Application
-
 ---
 
 #  CI/CD
